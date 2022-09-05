@@ -3,6 +3,7 @@
 using namespace std;
 
 int main() {
+    // not too sure what this two lines means
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr); cout.tie(nullptr);
 
@@ -15,6 +16,7 @@ int main() {
             cout << "NO" << endl;
         } else {
             cout << "YES" << endl;
+            // (long long) is very esential
             cout << a << ' ' << a * (long long)b << ' ' << a * (long long)(b + 1) << endl;
         }
     }
